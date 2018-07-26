@@ -10,6 +10,8 @@ function happyHolidaysTo(name) {
 }
 happyHolidaysTo()
 
+var holiday = "eid";
 function happyHolidayTo(holiday,name) {
-  return `Happy
+  return `Happy ${holiday}, ${name}!`
 }
+happyHolidayTo()
